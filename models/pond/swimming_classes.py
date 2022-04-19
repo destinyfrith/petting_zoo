@@ -4,54 +4,54 @@ from datetime import date
 
 class Otter:
 
-    def __init__(self):
+    def __init__(self, name, species):
         # Establish the properties of each animal
         # with a default value
-        self.name = ""
-        self.species = ""
+        self.name = name
+        self.species = species
         self.date_added = date.today()
         self.swimming = True
 
 
 class Whale:
 
-    def __init__(self):
+    def __init__(self, name, species):
         # Establish the properties of each animal
         # with a default value
-        self.name = ""
-        self.species = ""
+        self.name = name
+        self.species = species
         self.date_added = date.today()
         self.swimming = True
 
 
 class Jellyfish:
 
-    def __init__(self):
+    def __init__(self, name, species):
         # Establish the properties of each animal
         # with a default value
-        self.name = ""
-        self.species = ""
+        self.name = name
+        self.species = species
         self.date_added = date.today()
         self.swimming = True
 
 
 class Dolphin:
 
-    def __init__(self):
+    def __init__(self, name, species):
         # Establish the properties of each animal
         # with a default value
-        self.name = ""
-        self.species = ""
+        self.name = name
+        self.species = species
         self.date_added = date.today()
         self.swimming = True
 
 
 class Penguin:
 
-    def __init__(self):
+    def __init__(self, name, species):
         # Establish the properties of each animal
         # with a default value
-        self.name = ""
-        self.species = ""
+        self.name = name
+        self.species = species
         self.date_added = date.today()
         self.swimming = True
